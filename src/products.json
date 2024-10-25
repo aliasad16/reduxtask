@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999,
+      "category": "Computers",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Gaming Laptop",
+      "price": 1299,
+      "category": "Computers",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "Desktop PC",
+      "price": 799,
+      "category": "Computers",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "name": "Smartphone",
+      "price": 499,
+      "category": "Mobile Phones",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "name": "High-End Smartphone",
+      "price": 999,
+      "category": "Mobile Phones",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "name": "Budget Smartphone",
+      "price": 199,
+      "category": "Mobile Phones",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "name": "Tablet",
+      "price": 299,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 8,
+      "name": "iPad",
+      "price": 599,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 9,
+      "name": "Kindle",
+      "price": 89,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "name": "Bluetooth Headphones",
+      "price": 199,
+      "category": "Accessories",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 11,
+      "name": "Wired Headphones",
+      "price": 49,
+      "category": "Accessories",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 12,
+      "name": "Wireless Mouse",
+      "price": 29,
+      "category": "Accessories",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 13,
+      "name": "Mechanical Keyboard",
+      "price": 89,
+      "category": "Accessories",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 14,
+      "name": "Smart Watch",
+      "price": 199,
+      "category": "Wearables",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 15,
+      "name": "Fitness Tracker",
+      "price": 49,
+      "category": "Wearables",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 16,
+      "name": "Smart TV",
+      "price": 799,
+      "category": "Home Electronics",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 17,
+      "name": "Streaming Device",
+      "price": 49,
+      "category": "Home Electronics",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 18,
+      "name": "Gaming Console",
+      "price": 399,
+      "category": "Gaming",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 19,
+      "name": "VR Headset",
+      "price": 299,
+      "category": "Gaming",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 20,
+      "name": "4K Monitor",
+      "price": 499,
+      "category": "Computers",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  

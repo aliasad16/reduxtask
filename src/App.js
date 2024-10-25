@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import store from './redux/store';
+import Navbar from './components/Navbar';
+import ProductList from './components/ProductList';
+import Cart from './components/Cart';
 
-function App() {
+const NotFound = () => (
+  <div className="text-center p-4">
+    <h2 className="text-2xl">404 Not Found</h2>
+    <p>The page you are looking for does not exist.</p>
+  </div>
+);
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Router>
+        <Navbar />
+        <div className="max-w-screen-lg mx-auto p-4">
+          <Routes>
+            <Route path="/" element={<ProductList />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
+      </Router>
+    </Provider>
   );
-}
+};
 
 export default App;
